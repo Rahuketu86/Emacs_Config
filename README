@@ -1,0 +1,5 @@
+8th May, 2016 - 21:18 -> This is going to be my directory for managing my emacs config.
+Action 1:
+  - Copy .emacs and .emacs.d to current directory. 
+  - Create symlinks for .emacs and .emacs.d to .emacs and .emacs.d  in  this folder.
+
