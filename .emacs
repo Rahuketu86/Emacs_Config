@@ -22,3 +22,12 @@
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize)
+
+
+;; Installing Guru-Mode for Learning Emacs
+;;    --> When downloaded from Melpa already installed. 
+;; Need to move this out of .emacs in future.
+;; Note to self --> Learn Elisp for above.
+
+(guru-global-mode +1)
+;; (setq guru-warn-only t)
