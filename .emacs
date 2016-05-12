@@ -33,6 +33,7 @@
 ;; (setq guru-warn-only t)
 
 ;; Settings for Org-Mode :: From Org-Manual
+(transient-mark-mode 1)
 
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-cc" 'org-capture)
