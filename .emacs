@@ -41,6 +41,9 @@
 (global-set-key "\C-cb" 'org-iswitchb)
 (setq org-log-done t)
 
-;;Activate IDO
+;; Activate IDO
 (require 'ido)
 (ido-mode t)
+
+;; Settings for MAGIT
+(global-set-key (kbd "C-x g") 'magit-status)
