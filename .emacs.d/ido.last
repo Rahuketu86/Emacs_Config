@@ -1,0 +1,35 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/rahuketu86/" . "emacs_trial/")
+ ("/home/rahuketu86/emacs_trial/" . "emacs_config/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/rahuketu86/emacs_trial/emacs_config/"
+ "/home/rahuketu86/emacs_trial/MyOrg/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "README"
+ ".gitignore"
+ "musing.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/rahuketu86/emacs_trial/emacs_config/" (22327 3308 527666 242000) "README~" "../" ".emacs" "README" "./" ".emacs~" ".emacs.d/" ".gitignore~" "#.emacs#" "##.emacs##" ".git/" ".gitignore")
+
+ ("/home/rahuketu86/" (22326 50162 165508 380000) ".Skype/" ".macromedia/" "cabal.config" ".bashrc~" ".mozilla/" "Downloads/" ".eclipse/" ".stack/" "programming/" ".thunderbird/" ".fltk/" "deja-dup/" ".pki/" ".start-conky" ".gtk-bookmarks" "*message*-20160507-140017" ".gnome2/" ".dropbox-dist/" ".sudo_as_admin_successful" "../" "Cloud/" ".emacs" ".gksu.lock" "Public/" "MEGA-MASTERKEY" "MEGA/" "google-chrome-stable_current_amd64.deb" ".ghc/" ".dbus/" "stack-1.1.0-linux-i386/" ".gnome/" "Documents/" "PlayOnLinux's virtual drives/" ".gmshrc" "examples.desktop" "Main Menu of Mumtaz in English.pdf" "stack-1.1.0-linux-i386.tar.gz" "./" "first.org~" "rust/" "Linux_From_Scratch/" ".bashrc-anaconda.bak" "google-chrome-stable_current_i386.deb" ".gnome2_private/" "Videos/" ".bashrc" "anaconda/" "nano.save" "Dropbox/" ".bash_history" ".jupyter/" ".aptitude/" ".cabal/" "Desktop/" "IHaskell/" ".emacs.d/" "*message*-20150226-235123" ".cache/" "GoogleDrive/" ".bash_logout" "rust-1.8.0-i686-unknown-linux-gnu/" ".dmrc" "wpa.conf" ".wine/" "cabal.config.1" ".ghc-mod/" ".ipython/" ".kde/" ".gnupg/" ".octave_hist" ".w3m/" ".lesshst" ".cargo/" ".xinputrc" "#ls#" ".dropbox/" "octave-workspace" ".adobe/" ".ICEauthority" ".gphoto/" "VirtualBox VMs/" "Templates/" ".ssh/" ".remmina/" ".continuum/" ".swp" "emacs_trial/" "#*message*-20150226-235123#" ".local/" ".gvfs/" ".config/" "Clink" ".xsession-errors.old" ".filezilla/" ".conkyrc" "workspace/" ".profile~" ".indicator-sysmonitor.json" ".wget-hsts" "Music/" ".dropbox-dist-old-ojZzL6/" ".profile" ".gconf/" ".PlayOnLinux/" ".xsession-errors" ".VeraCrypt/" ".swt/" ".compiz/" "Pictures/" ".nedit/" ".gitconfig" "#first.org#" ".erc/" ".gstreamer-0.10/" ".nano/" ".grive" ".Xauthority")
+
+ ("/home/rahuketu86/emacs_trial/MyOrg/" (22327 10943 988906 87000) "../" "./" "musing.org" ".git/" ".gitignore")
+
+ ("/home/rahuketu86/emacs_trial/" (22324 52338 805775 494000) "emacs_src/" "../" "./" "emacs_config/" "MyOrg/" "elisp_trial/" "bkp/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -41,6 +41,10 @@
 (global-set-key "\C-cb" 'org-iswitchb)
 (setq org-log-done t)
 
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)))
+
 ;; Activate IDO
 (require 'ido)
 (ido-mode t)
