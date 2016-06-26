@@ -1,0 +1,20 @@
+#+TITLE: My Emacs Configuration
+#+AUTHOR: Rahuketu86
+#+EMAIL: rahuketu86@gmail.com
+#+OPTIONS: toc:3 num:nil ^:nil
+
+
+* Emacs init.el
+  #+BEGIN_EXAMPLE
+  (require 'org)
+  (org-babel-load-file 
+	(expand-file-name "configuration.org"
+                           user-emacs-directory))
+  #+END_EXAMPLE
+
+* Emacs Customization Group
+  #+BEGIN_SRC emacs-lisp
+    (setq custom-file
+          (expand-file-name "custom.el"
+                            user-emacs-directory))
+  #+END_SRC
