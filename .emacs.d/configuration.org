@@ -46,3 +46,22 @@
        (find-file (expand-file-name "configuration.org"
                                     user-emacs-directory)))
    #+END_SRC
+
+* Configure Emacs for use-package
+   #+BEGIN_SRC emacs-lisp
+     (unless (package-installed-p 'use-package)
+       (package-refresh-contents)
+       (package-install 'use-package))
+
+     (eval-when-compile
+       (require 'use-package))
+     (require 'diminish)
+     (require 'bind-key)
+   #+END_SRC
+
+** Note
+   If sometime error is encountered like File error: http://XXXXXX.el,
+   Not Found"  we need to do 
+   #+BEGIN_EXAMPLE
+     M-x package-refresh-contents
+   #+END_EXAMPLE

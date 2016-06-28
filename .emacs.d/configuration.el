@@ -18,3 +18,12 @@
 ;;  (find-file load-file-name))
   (find-file (expand-file-name "configuration.org"
                                user-emacs-directory)))
+
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+
+(eval-when-compile
+  (require 'use-package))
+(require 'diminish)
+(require 'bind-key)
