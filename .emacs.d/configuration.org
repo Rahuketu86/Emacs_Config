@@ -36,7 +36,7 @@
   #+END_SRC
 
 * Utility Functions
-
+  
 ** Function to open this configuration file 
    #+BEGIN_SRC emacs-lisp
      (defun my-config()
@@ -48,7 +48,7 @@
    #+END_SRC
 
 * Configure Emacs for use-package
-   #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
      (unless (package-installed-p 'use-package)
        (package-refresh-contents)
        (package-install 'use-package))
@@ -75,6 +75,7 @@
       :config
       (guru-global-mode +1))
   #+END_SRC
+
 * Setup Magit
   Magit is a git porcelain. With this we can stay within emacs for
   configuration modifications and commiting to git.
@@ -83,3 +84,10 @@
       :ensure t
       :bind ("C-x g" . magit-status))
   #+END_SRC
+* Games
+** Chess
+   #+BEGIN_SRC emacs-lisp
+     (use-package chess
+       :ensure t
+       :defer t)
+   #+END_SRC
