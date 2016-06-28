@@ -32,3 +32,7 @@
   :ensure t
   :config
   (guru-global-mode +1))
+
+(use-package magit
+  :ensure t
+  :bind ("C-x g" . magit-status))

@@ -75,3 +75,11 @@
       :config
       (guru-global-mode +1))
   #+END_SRC
+* Setup Magit
+  Magit is a git porcelain. With this we can stay within emacs for
+  configuration modifications and commiting to git.
+  #+BEGIN_SRC emacs-lisp
+    (use-package magit
+      :ensure t
+      :bind ("C-x g" . magit-status))
+  #+END_SRC
