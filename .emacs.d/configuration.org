@@ -65,3 +65,13 @@
    #+BEGIN_EXAMPLE
      M-x package-refresh-contents
    #+END_EXAMPLE
+
+* Setup Guru Mode
+  Guru mode works by disabling common key bindings and pushing for
+  Emacs standard key bindings
+  #+BEGIN_SRC emacs-lisp
+    (use-package guru-mode
+      :ensure t
+      :config
+      (guru-global-mode +1))
+  #+END_SRC

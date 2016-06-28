@@ -27,3 +27,8 @@
   (require 'use-package))
 (require 'diminish)
 (require 'bind-key)
+
+(use-package guru-mode
+  :ensure t
+  :config
+  (guru-global-mode +1))
