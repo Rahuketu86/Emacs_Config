@@ -28,10 +28,24 @@
 (require 'diminish)
 (require 'bind-key)
 
+;; Activate ido
+(require 'ido)
+(ido-mode t)
+
+;; Set up smex
+(use-package smex
+  :ensure t
+  :bind (("M-x" . smex))
+  :config (smex-initialize))
+
 (use-package guru-mode
   :ensure t
+  :init
+  (setq-default major-mode 'text-mode)
   :config
-  (guru-global-mode +1))
+  (add-hook 'prog-mode-hook 'guru-mode)
+  (add-hook 'org-mode-hook 'guru-mode)
+  (add-hook 'text-mode-hook 'guru-mode))
 
 (use-package magit
   :ensure t

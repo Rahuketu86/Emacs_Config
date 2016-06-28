@@ -1,0 +1,17 @@
+
+;; ----- smex-history -----
+(
+ my-config
+ ido-mode
+ R
+ S
+ S+
+ cd
+ 5x5
+)
+
+;; ----- smex-data -----
+(
+ (ido-mode . 1)
+ (my-config . 1)
+)

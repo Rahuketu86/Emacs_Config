@@ -66,14 +66,31 @@
      M-x package-refresh-contents
    #+END_EXAMPLE
 
+* Setup Ido and smex 
+  #+BEGIN_SRC emacs-lisp
+    ;; Activate ido
+    (require 'ido)
+    (ido-mode t)
+
+    ;; Set up smex
+    (use-package smex
+      :ensure t
+      :bind (("M-x" . smex))
+      :config (smex-initialize))
+  #+END_SRC
 * Setup Guru Mode
   Guru mode works by disabling common key bindings and pushing for
-  Emacs standard key bindings
+  Emacs standard key bindings. Instead of global hook up Textmode and
+  other so that it plays nice with ido-mode.
   #+BEGIN_SRC emacs-lisp
     (use-package guru-mode
       :ensure t
+      :init
+      (setq-default major-mode 'text-mode)
       :config
-      (guru-global-mode +1))
+      (add-hook 'prog-mode-hook 'guru-mode)
+      (add-hook 'org-mode-hook 'guru-mode)
+      (add-hook 'text-mode-hook 'guru-mode))
   #+END_SRC
 
 * Setup Magit
