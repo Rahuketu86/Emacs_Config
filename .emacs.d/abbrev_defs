@@ -69,6 +69,8 @@
 
 (define-abbrev-table 'global-abbrev-table '())
 
+(define-abbrev-table 'help-mode-abbrev-table '())
+
 (define-abbrev-table 'inferior-julia-mode-abbrev-table '())
 
 (define-abbrev-table 'julia-mode-abbrev-table '())
@@ -112,8 +114,6 @@
 (define-abbrev-table 'tabulated-list-mode-abbrev-table '())
 
 (define-abbrev-table 'text-mode-abbrev-table '())
-
-(define-abbrev-table 'url-cookie-mode-abbrev-table '())
 
 (define-abbrev-table 'vc-git-log-edit-mode-abbrev-table '())
 

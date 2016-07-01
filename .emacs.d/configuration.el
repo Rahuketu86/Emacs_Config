@@ -19,6 +19,15 @@
   (find-file (expand-file-name "configuration.org"
                                user-emacs-directory)))
 
+(setq inhibit-splash-screen t
+      ;;      initial-scratch-message nil
+      ;;    initial-major-mode 'org-mode
+      )
+
+(scroll-bar-mode -1)
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
   (package-install 'use-package))
@@ -50,6 +59,12 @@
 (use-package magit
   :ensure t
   :bind ("C-x g" . magit-status))
+
+(use-package org-mode
+  :bind (("\C-cl" . org-store-link)
+         ("\C-ca" . org-agenda)
+         ("\C-cc" . org-capture)
+         ("\C-cb" . org-iswitch)))
 
 (use-package chess
   :ensure t

@@ -47,6 +47,17 @@
                                     user-emacs-directory)))
    #+END_SRC
 
+* Splash Screen and bars
+  #+BEGIN_SRC emacs-lisp
+    (setq inhibit-splash-screen t
+          ;;      initial-scratch-message nil
+          ;;    initial-major-mode 'org-mode
+          )
+
+    (scroll-bar-mode -1)
+    (tool-bar-mode -1)
+    (menu-bar-mode -1)
+  #+END_SRC
 * Configure Emacs for use-package
   #+BEGIN_SRC emacs-lisp
      (unless (package-installed-p 'use-package)
@@ -78,6 +89,7 @@
       :bind (("M-x" . smex))
       :config (smex-initialize))
   #+END_SRC
+
 * Setup Guru Mode
   Guru mode works by disabling common key bindings and pushing for
   Emacs standard key bindings. Instead of global hook up Textmode and
@@ -100,6 +112,15 @@
     (use-package magit
       :ensure t
       :bind ("C-x g" . magit-status))
+  #+END_SRC
+
+* Org-Mode Settings
+  #+BEGIN_SRC emacs-lisp
+    (use-package org-mode
+      :bind (("\C-cl" . org-store-link)
+             ("\C-ca" . org-agenda)
+             ("\C-cc" . org-capture)
+             ("\C-cb" . org-iswitch)))
   #+END_SRC
 * Games
 ** Chess
