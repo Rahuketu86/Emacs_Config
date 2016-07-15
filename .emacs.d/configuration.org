@@ -58,6 +58,7 @@
     (tool-bar-mode -1)
     (menu-bar-mode -1)
   #+END_SRC
+
 * Configure Emacs for use-package
   #+BEGIN_SRC emacs-lisp
      (unless (package-installed-p 'use-package)
@@ -77,6 +78,10 @@
      M-x package-refresh-contents
    #+END_EXAMPLE
 
+* Improve performance on Windows
+  #+BEGIN_SRC emacs-lisp
+    (setq w32-get-true-file-attributes nil)
+  #+END_SRC
 * Setup Ido and smex 
   #+BEGIN_SRC emacs-lisp
     ;; Activate ido
@@ -101,8 +106,8 @@
       (setq-default major-mode 'text-mode)
       :config
       (add-hook 'prog-mode-hook 'guru-mode)
-      (add-hook 'org-mode-hook 'guru-mode)
-      (add-hook 'text-mode-hook 'guru-mode))
+      (add-hook 'text-mode-hook 'guru-mode)
+     )
   #+END_SRC
 
 * Setup Magit
@@ -115,13 +120,27 @@
   #+END_SRC
 
 * Org-Mode Settings
+  Global settings for all the org-mode buffers.
+
   #+BEGIN_SRC emacs-lisp
     (use-package org-mode
+      :init (remove-hook 'org-mode-hook 'guru-mode)
       :bind (("\C-cl" . org-store-link)
              ("\C-ca" . org-agenda)
              ("\C-cc" . org-capture)
-             ("\C-cb" . org-iswitch)))
+             ("\C-cb" . org-iswitch))
+      :config
+       (remove-hook 'org-mode-hook 'guru-mode))
   #+END_SRC
+  
+  Additional Org Mode plugins 
+  - Org Mode with Twitter bootstrap(ox-twbs)
+    #+BEGIN_SRC emacs-lisp
+      (use-package ox-twbs
+        :ensure t
+        :defer t)
+    #+END_SRC
+
 * Games
 ** Chess
    #+BEGIN_SRC emacs-lisp

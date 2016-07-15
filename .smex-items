@@ -2,18 +2,20 @@
 ;; ----- smex-history -----
 (
  my-config
+ guru-mode
+ recover-file
  recover-this-file
- package-list-packages
  ido-mode
+ package-list-packages
  R
- S
- S+
 )
 
 ;; ----- smex-data -----
 (
- (ido-mode . 1)
- (my-config . 6)
+ (ido-mode . 2)
+ (my-config . 19)
  (package-list-packages . 1)
- (recover-this-file . 2)
+ (recover-this-file . 3)
+ (guru-mode . 7)
+ (recover-file . 1)
 )

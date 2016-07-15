@@ -37,6 +37,8 @@
 (require 'diminish)
 (require 'bind-key)
 
+(setq w32-get-true-file-attributes nil)
+
 ;; Activate ido
 (require 'ido)
 (ido-mode t)
@@ -53,18 +55,25 @@
   (setq-default major-mode 'text-mode)
   :config
   (add-hook 'prog-mode-hook 'guru-mode)
-  (add-hook 'org-mode-hook 'guru-mode)
-  (add-hook 'text-mode-hook 'guru-mode))
+  (add-hook 'text-mode-hook 'guru-mode)
+ )
 
 (use-package magit
   :ensure t
   :bind ("C-x g" . magit-status))
 
 (use-package org-mode
+  :init (remove-hook 'org-mode-hook 'guru-mode)
   :bind (("\C-cl" . org-store-link)
          ("\C-ca" . org-agenda)
          ("\C-cc" . org-capture)
-         ("\C-cb" . org-iswitch)))
+         ("\C-cb" . org-iswitch))
+  :config
+   (remove-hook 'org-mode-hook 'guru-mode))
+
+(use-package ox-twbs
+  :ensure t
+  :defer t)
 
 (use-package chess
   :ensure t
