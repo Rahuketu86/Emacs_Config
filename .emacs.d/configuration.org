@@ -23,7 +23,7 @@
 
 * Emacs Repositories
   #+BEGIN_SRC emacs-lisp
-    '(require 'package)
+    (require 'package)
     ;;;(add-to-list 'package-archives
     ;;;'             '("marmalade" . "http://marmalade-repo.org/packages/") t)
     (add-to-list 'package-archives
@@ -83,6 +83,14 @@
   #+BEGIN_SRC emacs-lisp
     (setq w32-get-true-file-attributes nil)
   #+END_SRC
+
+* Emacs Custom Theme
+  #+BEGIN_SRC emacs-lisp
+    (use-package monokai-theme
+      :ensure t
+      :init(load-theme 'monokai t))
+  #+END_SRC
+
 * Setup Ido and smex 
   #+BEGIN_SRC emacs-lisp
     ;; Activate ido

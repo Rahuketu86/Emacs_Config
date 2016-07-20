@@ -2,20 +2,24 @@
 ;; ----- smex-history -----
 (
  my-config
- guru-mode
- recover-file
- recover-this-file
- ido-mode
+ package-refresh-contents
  package-list-packages
- R
+ customize-themes
+ forward-sentence
+ org-version
+ guru-mode
 )
 
 ;; ----- smex-data -----
 (
  (ido-mode . 2)
- (my-config . 19)
- (package-list-packages . 1)
+ (my-config . 25)
+ (package-list-packages . 4)
  (recover-this-file . 3)
  (guru-mode . 7)
  (recover-file . 1)
+ (org-version . 1)
+ (forward-sentence . 1)
+ (customize-themes . 2)
+ (package-refresh-contents . 1)
 )

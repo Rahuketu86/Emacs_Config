@@ -2,7 +2,7 @@
       (expand-file-name "custom.el"
                         user-emacs-directory))
 
-'(require 'package)
+(require 'package)
 ;;;(add-to-list 'package-archives
 ;;;'             '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives
@@ -38,6 +38,10 @@
 (require 'bind-key)
 
 (setq w32-get-true-file-attributes nil)
+
+(use-package monokai-theme
+  :ensure t
+  :init(load-theme 'monokai t))
 
 ;; Activate ido
 (require 'ido)
