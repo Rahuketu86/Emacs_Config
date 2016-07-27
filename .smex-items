@@ -13,7 +13,7 @@
 ;; ----- smex-data -----
 (
  (ido-mode . 2)
- (my-config . 25)
+ (my-config . 28)
  (package-list-packages . 4)
  (recover-this-file . 3)
  (guru-mode . 7)

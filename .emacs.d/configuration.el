@@ -66,6 +66,10 @@
   :ensure t
   :bind ("C-x g" . magit-status))
 
+(use-package fsharp-mode
+  :ensure t
+  )
+
 (use-package org-mode
   :init (remove-hook 'org-mode-hook 'guru-mode)
   :bind (("\C-cl" . org-store-link)
