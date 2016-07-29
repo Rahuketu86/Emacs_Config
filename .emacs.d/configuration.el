@@ -66,9 +66,26 @@
   :ensure t
   :bind ("C-x g" . magit-status))
 
+(use-package company
+      :ensure t
+      :defer t
+      :config
+       (global-company-mode)
+ 
+;;      :config
+;;       (global-company-mode))
+           )
+
 (use-package fsharp-mode
   :ensure t
   )
+
+(use-package elm-mode
+  :ensure t
+  :defer t
+  :config
+   (add-to-list 'company-backends 'company-elm)
+   (add-hook 'elm-mode-hook #'elm-oracle-setup-ac))
 
 (use-package org-mode
   :init (remove-hook 'org-mode-hook 'guru-mode)

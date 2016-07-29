@@ -128,12 +128,37 @@
       :bind ("C-x g" . magit-status))
   #+END_SRC
 
+* Setup Company Mode
+  Company mode is used for autocompletion in Emacs.
+  #+BEGIN_SRC emacs-lisp
+    (use-package company
+      :ensure t
+      :defer t
+      :config
+       (global-company-mode)
+ 
+;;      :config
+;;       (global-company-mode))
+	   )
+  #+END_SRC
+
 * SetUp F#
   #+BEGIN_SRC emacs-lisp
     (use-package fsharp-mode
       :ensure t
       )
   #+END_SRC
+
+* Setup Elm 
+  #+BEGIN_SRC emacs-lisp
+    (use-package elm-mode
+      :ensure t
+      :defer t
+      :config
+       (add-to-list 'company-backends 'company-elm)
+       (add-hook 'elm-mode-hook #'elm-oracle-setup-ac))
+  #+END_SRC
+
 * Org-Mode Settings
   Global settings for all the org-mode buffers.
 

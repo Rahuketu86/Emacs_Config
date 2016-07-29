@@ -2,19 +2,19 @@
 ;; ----- smex-history -----
 (
  my-config
- package-refresh-contents
  package-list-packages
- customize-themes
- forward-sentence
- org-version
- guru-mode
+ company-mode
+ describe-function
+ make-directory
+ fsharp-mode
+ package-refresh-contents
 )
 
 ;; ----- smex-data -----
 (
  (ido-mode . 2)
- (my-config . 28)
- (package-list-packages . 4)
+ (my-config . 34)
+ (package-list-packages . 6)
  (recover-this-file . 3)
  (guru-mode . 7)
  (recover-file . 1)
@@ -22,4 +22,8 @@
  (forward-sentence . 1)
  (customize-themes . 2)
  (package-refresh-contents . 1)
+ (fsharp-mode . 1)
+ (make-directory . 1)
+ (describe-function . 1)
+ (company-mode . 1)
 )
