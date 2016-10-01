@@ -1,3 +1,4 @@
+
 #+TITLE: My Emacs Configuration
 #+AUTHOR: Rahuketu86
 #+EMAIL: rahuketu86@gmail.com
@@ -149,6 +150,12 @@
       )
   #+END_SRC
 
+* Setup Thrift
+ #+BEGIN_SRC emacs-lisp
+   (use-package thrift
+     :ensure t
+     )
+ #+END_SRC
 * Setup Elm 
   #+BEGIN_SRC emacs-lisp
     (use-package elm-mode

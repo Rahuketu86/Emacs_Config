@@ -80,6 +80,10 @@
   :ensure t
   )
 
+(use-package thrift
+  :ensure t
+  )
+
 (use-package elm-mode
   :ensure t
   :defer t

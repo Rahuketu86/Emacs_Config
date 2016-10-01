@@ -1,20 +1,20 @@
 
 ;; ----- smex-history -----
 (
+ thrift-mode
  my-config
  package-list-packages
  company-mode
  describe-function
  make-directory
  fsharp-mode
- package-refresh-contents
 )
 
 ;; ----- smex-data -----
 (
  (ido-mode . 2)
- (my-config . 34)
- (package-list-packages . 6)
+ (my-config . 38)
+ (package-list-packages . 7)
  (recover-this-file . 3)
  (guru-mode . 7)
  (recover-file . 1)
@@ -26,4 +26,5 @@
  (make-directory . 1)
  (describe-function . 1)
  (company-mode . 1)
+ (thrift-mode . 1)
 )
