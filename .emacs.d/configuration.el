@@ -80,6 +80,12 @@
   :ensure t
   )
 
+(use-package geiser
+  :ensure t
+  :config
+  (setq geiser-racket-binary "c:/Program Files (x86)/Racket/Racket.exe")
+  )
+
 (use-package thrift
   :ensure t
   )

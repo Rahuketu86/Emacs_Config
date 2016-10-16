@@ -2,11 +2,14 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/Rahul Saraf/Downloads/" . "sicp.texi/")
+ ("c:/rahuketu/programming/AFModelling/THRIFT/gen-py/" . "SimpleThrift/")
+ ("c:/rahuketu/programming/AFModelling/THRIFT/" . "gen-py/")
  ("c:/rahuketu/programming/AFModelling/DataReferences/" . "Thrift/")
  ("c:/rahuketu/programming/AFModelling/notebook/" . "NIMR_RECO_DASHBOARD/")
- ("c:/rahuketu/programming/AFModelling/" . "DataReferences/")
+ ("c:/rahuketu/programming/AFModelling/" . "DATA/")
  ("c:/Users/Rahul Saraf/.jupyter/" . "nbconfig/")
- ("c:/Users/Rahul Saraf/" . ".jupyter/")
+ ("c:/Users/Rahul Saraf/" . "Downloads/")
  ("c:/Users/" . "Rahul Saraf/")
  ("c:/rahuketu/programming/F#/Tutorial1/" . "Tutorial1/")
  ("c:/rahuketu/programming/F#/" . "Tutorial1/")
@@ -15,14 +18,18 @@
  ("c:/rahuketu/programming/" . "AFModelling/")
  ("c:/rahuketu/Courses/" . "game_programming_csharp/")
  ("c:/rahuketu/" . "programming/")
- ("c:/" . "rahuketu/")
+ ("c:/" . "Users/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/Rahul Saraf/Downloads/sicp.texi/"
+ "c:/rahuketu/programming/AFModelling/DATA/"
+ "c:/rahuketu/programming/AFModelling/THRIFT/gen-py/SimpleThrift/"
+ "c:/rahuketu/programming/AFModelling/THRIFT/"
+ "c:/Users/Rahul Saraf/.jupyter/nbconfig/"
  "c:/rahuketu/programming/AFModelling/DataReferences/Thrift/"
  "c:/rahuketu/programming/AFModelling/notebook/NIMR_RECO_DASHBOARD/"
- "c:/Users/Rahul Saraf/.jupyter/nbconfig/"
  "c:/Users/Rahul Saraf/.jupyter/"
  "c:/rahuketu/programming/EMACS/LAUNCH/"
  "c:/rahuketu/programming/F#/"
@@ -35,43 +42,53 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "sicp.texi"
+ "AF_XL.xls"
+ "ttypes.py"
+ "constants.py"
+ "PythonSimpleThrift.py"
+ "edit.json"
  "StringFormatRemote.thrift"
  "NIMR Reconciliation.ipynb"
- "edit.json"
  "jupyter_nbconvert_config.json"
  "jupyter_nbconvert_config.py"
- "settings.json"
- "launch.py"
- "ex_Form_Field.elm"
- "ex_text_field.elm"
- "test.elm"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/rahuketu/programming/AFModelling/DataReferences/Thrift/" (22506 37723 0 0) "StringFormatRemote.thrift" "../" "./")
+ ("c:/Users/Rahul Saraf/Downloads/" (22530 31070 0 0) "算法导论.epub" "_temp_matlab_R2015a_win64/" "ZIP.zip" "xubuntu-14.04.2-desktop-i386.iso.torrent" "XamarinInstaller.exe" "WualaSetup.exe" "Writing GNU Emacs Extensions - Bob Glickstein.pdf" "WorldClockPortable_8.0_English.paf.exe" "WorldClockPortable/" "winutils-master.zip" "winutils-master (1).zip" "Windows8-RT-KB2799888-x64.msu" "Windows6.1-KB2819745-x86-MultiPkg.msu" "Windows6.1-KB2819745-x64-MultiPkg.msu" "Windows PowerShell Desired State Configuration Quick Reference for Windows Management Framework 4.0.pptx" "Windows PowerShell Desired State Configuration Quick Reference for Windows Management Framework 4.0.pdf" "Windows Management Framework 4.0 Release Notes.docx" "Win8_1AdSDK.msi" "wholesale-food-co.-master.zip" "White Paper - PI AF Templates - March2015.pdf" "wft223327.pdf" "wedding.jpg" "wdexpress_full.exe" "VWDOrVs2013AzurePack.2E2.2E5.exe" "vs_community.exe" "vpn-unlimited_3.1.5.exe" "VLCPortable_2.2.0.paf.exe" "VLCPortable/" "VirtualRouterInstaller.msi" "VirtualBoxSDK-5.0.20-106931.zip" "VeraCrypt Setup 1.0f-1.exe" "VeraCrypt/" "uwhpsc.vdi.zip" "uTorrentPortable_3.4.2.39586_online.paf.exe" "uTorrentPortable/" "UNetbootinPortable_608.paf.exe" "UNetbootinPortable/" "Unconfirmed 657884.crdownload" "Unconfirmed 300307.crdownload" "Unconfirmed 276693.crdownload" "torbrowser-install-4.0.6_en-US.exe" "Tor Browser/" "ThunderbirdPortable/" "thrift-0.9.3.tar.gz" "thrift-0.9.3.tar/" "The Three-Body Problem.epub.zip" "The Three-Body Problem.epub (2).zip" "The Three-Body Problem.epub (1).zip" "The Three-Body Problem.epub/" "The Dark Forest - Cixin Liu.epub" "TeamViewerPortable_10.0.39052.paf.exe" "TeamViewerPortable/" "Super User Meeting - Aug 24th_26042016.pptx" "Super User Meeting - 2015 September_v2_reservoir.pptx" "Start.exe" "stack-1.2.0-windows-x86_64-installer.exe.part" "SSDTSetup.exe" "sqlite-shell-win32-x86-3080900.zip" "sqlite-shell-win32-x86-3080900/" "sqlite-doc-3080900.zip" "SQLEXPRADV_x64_ENU.exe" "SQLEXPRADV_x64_ENU/" "sqldeveloper-4.1.3.20.78-no-jre.zip" "sqldeveloper-4.1.3.20.78-no-jre/" "Sprawl_complete_series_by_William_Gibson_[EPUB,_AZW3].torrent" "SpotifySetup.exe" "spe063087-Fevang-Singh-Whitson-EOSvsBO.pdf" "SourceTreeSetup_1.6.14.exe" "SmartflixSetup.exe" "SmartflixSetup (1).exe" "SkypePortable_7.2.0.103_online.paf.exe" "SkypePortable/" "Silverlight_x64.exe" "sicp.texi.gz" "sicp.texi/" "sicp.epub" "sf-salaries-release-2015-12-21-03-21-32.zip" "setuponenotefreeretail.x86.en-us_.exe" "Setup.X86.en-US_O365HomePremRetail_ffb48690-86ab-415d-a355-b6809c9aeea7_TX_DB_.exe" "Setup.X86.en-US_O365BusinessRetail_e45749f7-d75d-41ec-97fe-cf5bdb020ff7_TX_PR_b_32_.exe" "setup-x86_64.exe" "Season 2/" "sbcl-1.3.7-x86-windows-binary.msi" "san-francisco-2014.csv" "rr-0.7.0.zip" "rr-0.7.0 (1).zip" "rr-0.7.0/" "Rodeo.Setup.2.1.4.exe" "Robert_Ludlum_ebook_complete_[2014]_epub.torrent" "RISE-master.zip" "ReservoirNibras_UG_26_04_2016M.pptx" "Remix-OS_2.0.102-BETA-32bit.7z" "RECO_NRPS 2.zip" "RECO_NRPS 2 (5).zip" "RECO_NRPS 2 (4).zip" "RECO_NRPS 2 (3).zip" "RECO_NRPS 2 (2).zip" "RECO_NRPS 2 (1).zip" "Reconciliaton_Improved.ipynb" "Reconcilation+Factor.pdf" "Reconcilation+Factor.html" "Reconcilation+Factor (3).html" "Reconcilation+Factor (2).pdf" "Reconcilation+Factor (2).html" "Reconcilation+Factor (1).pdf" "Reconcilation+Factor (1).html" "react-tutorial-master.zip" "react-tutorial-master/" "react-0.13.3.zip" "react-0.13.3/" "r7rs-small-spec.zip" "PuTTYPortable_0.64_English.paf.exe" "PuTTYPortable/" "PTVS 2.2 RC VS 2015.msi" "ProPic.jpg" "PROJECT_STATUS.xlsx" "PROJECT_STATUS (1).xlsx" "ProjectStatus_final.pptx" "ProjectStatus.pptx" "ProjectStatus (1).pptx" "PRODUTION OPERATIONS 1 volume 1.pdf" "ppt957C.tmp" "PortableApps.com_Platform_Setup_12.0.5.paf.exe" "Portable-VirtualBox_v4.3.18-Starter_v6.4.9-Win_all.exe" "Portable-VirtualBox/" "Plex-Media-Server-1.0.3.2461-35f0caa-en-US.exe" "Plex-Media-Server-1.0.3.2461-35f0caa-en-US (2).exe" "Plex-Media-Server-1.0.3.2461-35f0caa-en-US (1).exe" "PISDK_2014 R2_ (1).exe" "PI-Web-API-2016_1.7.0.176_.exe" "PI-AF-Server_2016_.exe" "PI-AF-Developer-Tools_2016_.exe" "PI-AF-Client_2016_.exe" "personalVPNPro-install.exe" "personalVPNPro-install (1).exe" "pelican-ipynb-master.zip" "pdoreconotebook.zip" "pandoc-1.17.2-windows.msi" "OracleXE112_Win64.zip" "OracleXE112_Win64/" "OpenOfficePortable_3.2.0_English.paf.exe" "OpenOfficePortable/" "OneDriveSetup.exe" "omanbeaches.jpg" "octave.ico" "octave-3.8.2-5-portable.7z" "octave-3.8.2/" "octave icon.jpg" "NotepadPlusPlusPortable_6.7.5.paf.exe" "Notepad++Portable/" "nodejs/" "node-v0.12.4-x64.msi" "New IPCOS e-mail signature.msg" "MultiStage Reconcilitaion_Greater Nimr_v2_19.07.2016.xlsx" "mseinstall.exe" "mrst-2014b.tar.gz" "mrst-2014b.tar" "mrst-2014b/" "mongodb-win32-x86_64-2008plus-ssl-3.0.4-signed.msi" "Miniconda3-latest-Windows-x86_64.exe" "Miniconda3-latest-Windows-x86_64 (2).exe" "Miniconda3-latest-Windows-x86_64 (1).exe" "Microsoft_Press_ebook_Introducing_Microsoft_SQL_Server_2014_EPUB.epub" "mee.jpg" "matlab_R2015a_win64.exe" "MathWorks/" "Magic_only.svg" "machine_learning_for_hackers.pdf" "Machine Learning for Hackers.pdf" "Maasveld Development V16 Case 6.pdf" "log4net-1.2.13-src.zip" "log4net-1.2.13-src/" "LLVM-3.6.0-win32.exe" "libXpm-3.5.7-w32-src.zip" "libcrypt-w32-bin.zip" "lektor-website-master.zip" "lektor-website-master (1).zip" "lektor-master.zip" "lektor-master (2).zip" "lektor-master (1).zip" "lektor-examples-master.zip" "LaCie_Private-Public_Win_1.0.0.zip" "kobosetup.exe" "jre-8u40-windows-x64.exe" "jPortable_8_Update_40_Rev_2.paf.exe" "jPortable_8_Update_40.paf.exe" "jPortable64_8_Update_40_Rev_2.paf.exe" "jdk-8u40-windows-x64.exe" "iTunes6464Setup.exe" "ISharp/" "IPM90-194.exe" "IObitUnlockerPortable_1.1.paf.exe" "IObitUnlockerPortable/" "Install-Emacs-23.1.0.12.exe" "Import_Variables.xlsx" "http%3a%2f%2fcygwin.mirror.constant.com%2f/" "hpphotocreations.exe" "Hola-Setup.exe" "Hola-Setup-x64-1.8.328 (1).exe" "Hola/" "hdf_logo.jpg" "HDF_File_Format_Logo.jpg" "hdf_32.png" "HDFView-2.11-win64-vs2012.zip" "HDFView-2.11-win64-vs2012/" "hdficon.ico" "HDF5DotNet-src.zip" "HDF/" "Hanne/" "googledrivesync.exe" "GitPortable_1.9.5_Development_Test_1_online.paf.exe" "GitPortable/" "GitHubSetup.exe" "Git-1.9.5-preview20150319.exe" "Git-1.9.5-preview20150319 (1).exe" "fwdfinalformdocuments_.zip" "fwdfinalformdocuments_/" "FSharp_Bundle.exe" "FreeAlarmClockPortable.zip" "FreeAlarmClockPortable/" "FoxitReaderPortable_7.1.3.320.paf.exe" "FoxitReaderPortable/" "FluidModeling.pptx" "flexx-notebooks-master.zip" "flexx-notebooks-master/" "FirefoxPortable_37.0.1_English.paf.exe" "FirefoxPortable/" "FileZillaPortable_3.10.2.paf.exe" "FileZillaPortable/" "Expense.zip" "empty.zip" "emacs-24.5-bin-i686-mingw32.zip" "emacs-24.4-bin-i686-pc-mingw32.zip" "EclipsePortable_4.2_Classic_Edition.paf.exe" "EclipsePortable/" "eclipse-java-mars-2-win32-x86_64.zip" "eclipse-java-luna-SR2-win32-x86_64.zip" "Ebooks.zip" "Ebooks.7z" "Ebooks/" "Dune_(complete_series)_-_BEST_VERSION_AVAILABLE_-_EPub.torrent" "DropboxInstaller.exe" "DotNetReferenceSource.zip" "Documents/" "DiskImageTrialSetup.exe" "DiskCleanerPortable_1.7.1645_Rev_2_English.paf.exe" "DiskCleanerPortable/" "devel-core-amd64-cloud.ova" "desktop.ini" "debug.log" "datashader-master.zip" "darteditor-windows-x64 (1).zip" "darteditor-windows-x64/" "d3.zip" "Console-2.00b148-Beta_32bit.zip" "Console-2.00b148-Beta_32bit/" "composition.ppt" "CommonFiles/" "code.zip" "code (1).zip" "cmdline - Command Line Parser.zip" "cmdline - Command Line Parser/" "cloudready-free-49.1.46.bin.zip" "cloudready-free-49.1.46.bin/" "Cloud/" "ChromeSetup.exe" "chromeremotedesktophost.msi" "chromeinstall-8u40.exe" "chromecastinstaller.exe" "Business_Model_Canvas31.png" "BoxSyncSetup.exe" "bokeh_examples-master.zip" "bokeh.github.io-source.zip" "bokeh.github.io-source (1).zip" "bokeh.github.io-source (1)/" "bokeh-notebooks-master.zip" "bokeh-master.zip" "bokeh-master/" "bokeh-demos-master.zip" "blackscreen-win.zip" "blackscreen-win/" "beautifulbride.jpg" "basic-miktex-2.9.6022.exe" "BalabolkaPortable_2.10.0.577.paf.exe" "BalabolkaPortable/" "BackupperFull.exe" "avg_tuht_stf_en_2015_403_ab1.exe" "avg_free_stb_all_5856p1_177.exe" "Autoruns.zip" "Autoruns/" "Autorun.inf" "artificial-intelligence-a-modern-approach-3rd-edition_Original.epub" "Anaconda3-4.1.1-Windows-x86_64.zip" "Anaconda3-4.1.1-Windows-x86_64.exe" "Anaconda3-4.1.1-Windows-x86_64 (3).exe" "Anaconda3-4.1.1-Windows-x86_64 (2).exe" "Anaconda3-4.1.1-Windows-x86_64 (1).zip" "Anaconda3-4.1.1-Windows-x86_64 (1).exe" "Anaconda-2.2.0-Windows-x86_64 (1).exe" "Anaconda-2.1.0-Windows-x86_64.exe" "AirPortSetup.exe" "7z938-x64.msi" "7-ZipPortable_9.20_Rev_3.paf.exe" "7-ZipPortable/" "6C72207BCECF.cfg" "2014-05-13 - Confluence Seminar - IPCOS Leuven.pptx" "2003-07-18-StanleyMSThesis.ps" "167021286-Artificial-Lift.ppt" "1518073-2560x1440.jpg" "11_Creating Task Functions.docx" "1.DATA.zip" "1.DATA (3).zip" "1.DATA (2).zip" "1.DATA (1).zip" "../" "./")
+
+ ("c:/Users/Rahul Saraf/Downloads/sicp.texi/" (22530 30878 0 0) "sicp.texi" ".#sicp.texi" "#sicp.texi#" "../" "./")
+
+ ("c:/rahuketu/programming/EMACS/Emacs_Config/.emacs.d/" (22527 42194 0 0) "server/" "rotated.log" "init.el" "ido.last~" "ido.last" "elpa/" "custom.el" "configuration.org~" "configuration.org" "configuration.html~" "configuration.html" "configuration.el" "auto-save-list/" "abbrev_defs" "#rotated.log#" "#init.el#" "#ido.last#" "#configuration.org#" "../" "./")
+
+ ("c:/rahuketu/programming/EMACS/Emacs_Config/" (22515 61792 0 0) "rotated.log" "README" ".smex-items" ".gitignore~" ".gitignore" ".git/" ".emacs.d/" ".#README" "#README#" "../" "./")
+
+ ("c:/rahuketu/programming/F#/" (22517 13556 0 0) "Tutorial1/" "Test.fsx~" "Test.fsx" "Test.exe" "test.elm~" "test.elm" "rotated.log" "ex_text_field.elm~" "ex_text_field.elm" "ex_Form_Field.elm~" "ex_Form_Field.elm" "ex_dice.elm~" "ex_dice.elm" "elm.js" "elm-stuff/" "elm-package.json" "../" "./")
+
+ ("c:/rahuketu/programming/AFModelling/notebook/NIMR_RECO_DASHBOARD/" (22483 50448 0 0) "sample.xlsx" "Reconciliaton_Improved.ipynb" "PITag Excel Sheet.ipynb" "NIMR Reconciliation.ipynb" "debug.log" "DATA/" "Dashboard2.py" "Dashboard.py" ".ipynb_checkpoints/" "../" "./")
+
+ ("c:/rahuketu/programming/AFModelling/DataReferences/Thrift/" (22520 33199 0 0) "StringFormatRemote.thrift~" "StringFormatRemote.thrift" "../" "./")
+
+ ("c:/rahuketu/programming/AFModelling/THRIFT/gen-py/SimpleThrift/" (22497 28537 0 0) "__pycache__/" "__init__.py" "ttypes.pyc" "ttypes.py" "PythonSimpleThrift.py" "MultiplicationService.pyc" "MultiplicationService.py" "MultiplicationService-remote" "constants.py" "../" "./")
+
+ ("c:/rahuketu/programming/AFModelling/THRIFT/gen-py/" (22497 20955 0 0) "__init__.py" "tutorial/" "SimpleThrift/" "../" "./")
+
+ ("c:/rahuketu/programming/AFModelling/" (22510 43917 0 0) "winutils-master (1).zip" "THRIFT/" "spark-1.6.1-bin-hadoop2.6/" "spark/" "notebook/" "Examples/" "DataReferences/" "DATA/" "../" "./")
+
+ ("c:/rahuketu/" (22526 20839 0 0) "~WRL3319.tmp" "~WRL3217.tmp" "~WRL2009.tmp" "~WRL0005.tmp" "~$verLetter_v02.2015.doc" "~$hul_Saraf_CV_RE_v05.02.2015.doc" "~$hul Saraf_CV_IPCOS_v02.2015.doc" "~$hul Saraf_CV_FORMAT_v02.2015.doc" "watermark.py" "virtualrouter/" "v7.02.zip" "v7.02/" "Untitled.ipynb" "Unconfirmed 388943.crdownload" "Timings.xlsx" "Test.xlsx" "Test.xls" "Super User Meeting - Aug 24th_26042016.pptx" "Reservoir_Naming_And_Caching_PPT.pptx" "REFHISTMATCH/" "Rahul_Saraf_CV_RE_v05.02.2015.doc" "Rahul Saraf_CV_IPCOS_v02.2015.doc" "Rahul Saraf_CV_FORMAT_v02.2015.doc" "programming/" "ProductionEngineering/" "printer.txt" "IPCOS/" "Interview/" "img.jpg" "Files.zip" "Files/" "DS_PI AF_LT_EN.pdf" "CoverLetter_v02.2015.doc" "Courses/" "conda_recipe/" "525330016_Sep2016.xls" ".ipynb_checkpoints/" "../" "./")
+
+ ("c:/Users/Rahul Saraf/" (22511 18679 0 0) "VirtualBox VMs/" "Videos/" "untitled.txt" "Untitled.ipynb" "Tracing/" "Templates/" "Start Menu/" "shell.log" "SendTo/" "Searches/" "Saved Games/" "rotated.log" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "Oracle/" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "elm-stuff/" "elm-package.json" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "city.jpg" "chocolatey.0.9.8.28/" "AzureStorageEmulatorDb44_log.ldf" "AzureStorageEmulatorDb44.mdf" "Application Data/" "AppData/" ".VirtualBox/" ".viminfo" ".ssh/" ".spark_history" ".scala_history" ".QtWebEngineProcess/" ".python_history" ".oracle_jre_usage/" ".octave_hist" ".node-gyp/" ".mongorc.js" ".matplotlib/" ".jupyter/" ".ipython/" ".ipynb_checkpoints/" ".hdfview2.11" ".gitconfig" ".gem/" ".fontconfig/" ".eclipse/" ".dnx/" ".continuum/" ".config/" ".condarc" ".conda/" ".cache/" ".boot2docker/" ".bokeh/" ".BitLord/" ".bash_history" ".astropy/" ".anaconda/" "../" "./")
+
+ ("c:/rahuketu/programming/AFModelling/DataReferences/" (22510 43085 0 0) "ZeusCServer.py" "ZeusCalculationServer.py" "Zeus.DataReferences/" "Zeus.DataReference.StringFormatRemoteDR/" "Thrift/" "StringRemoteTest/" "Services/" "gen-py/" "gen-csharp/" "fsharpforfunandprofit.pdf" "AFDataReferenceWhitePaper/" "../" "./")
+
+ ("c:/rahuketu/programming/AFModelling/DATA/" (22464 60 0 0) "Reconcilation_NIMR_v24.08.2016.xlsx" "AF_XL.xlsx.dsn" "AF_XL.xlsx" "AF_XL.xls" "../" "./")
 
  ("c:/rahuketu/programming/AFModelling/DataReferences/StringRemoteTest/" (22506 51176 0 0) "StringRemoteTest.sln" "StringRemoteTest/" ".vs/" ".gitignore" ".gitattributes" ".git/" "../" "./")
 
- ("c:/rahuketu/programming/AFModelling/DataReferences/" (22509 10816 0 0) "ZeusCServer.py" "ZeusCalculationServer.py" "Zeus.DataReferences/" "Zeus.DataReference.StringFormatRemoteDR/" "Thrift/" "StringRemoteTest/" "gen-py/" "gen-csharp/" "fsharpforfunandprofit.pdf" "AFDataReferenceWhitePaper/" "../" "./")
-
  ("c:/rahuketu/programming/AFModelling/THRIFT/" (22502 1201 0 0) "^White-Paper---Implementing-AF-2.x-Data-References.pdf" "tutorial/" "thrift-0.9.3.tar.gz" "thrift-0.9.3.tar/" "thrift-0.9.3.exe" "SimpleThrift/" "SimpleServerThrift/" "setup.exe" "PythonSimpleThrift.py" "MDF_StringConcat/" "gen-py/" "gen-csharp/" "AFDataReferenceWhitePaper.zip" "../" "./")
 
- ("c:/rahuketu/programming/AFModelling/" (22497 17692 0 0) "winutils-master (1).zip" "THRIFT/" "spark-1.6.1-bin-hadoop2.6/" "spark/" "notebook/" "Examples/" "DataReferences/" "DATA/" "../" "./")
-
- ("c:/rahuketu/" (22502 29491 0 0) "~WRL3319.tmp" "~WRL3217.tmp" "~WRL2009.tmp" "~WRL0005.tmp" "~$verLetter_v02.2015.doc" "~$hul_Saraf_CV_RE_v05.02.2015.doc" "~$hul Saraf_CV_IPCOS_v02.2015.doc" "~$hul Saraf_CV_FORMAT_v02.2015.doc" "watermark.py" "virtualrouter/" "v7.02.zip" "v7.02/" "Untitled.ipynb" "Timings.xlsx" "Test.xlsx" "Test.xls" "REFHISTMATCH/" "Rahul_Saraf_CV_RE_v05.02.2015.doc" "Rahul Saraf_CV_IPCOS_v02.2015.doc" "Rahul Saraf_CV_FORMAT_v02.2015.doc" "programming/" "ProductionEngineering/" "printer.txt" "IPCOS/" "Interview/" "img.jpg" "Files.zip" "Files/" "CoverLetter_v02.2015.doc" "Courses/" "conda_recipe/" ".ipynb_checkpoints/" "../" "./")
-
- ("c:/Users/Rahul Saraf/" (22506 45237 0 0) "VirtualBox VMs/" "Videos/" "untitled.txt" "Untitled.ipynb" "Tracing/" "Templates/" "Start Menu/" "shell.log" "SendTo/" "Searches/" "Saved Games/" "rotated.log" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "Oracle/" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "elm-stuff/" "elm-package.json" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "city.jpg" "chocolatey.0.9.8.28/" "AzureStorageEmulatorDb44_log.ldf" "AzureStorageEmulatorDb44.mdf" "Application Data/" "AppData/" ".VirtualBox/" ".viminfo" ".ssh/" ".spark_history" ".scala_history" ".QtWebEngineProcess/" ".python_history" ".oracle_jre_usage/" ".octave_hist" ".node-gyp/" ".mongorc.js" ".matplotlib/" ".jupyter/" ".ipython/" ".ipynb_checkpoints/" ".hdfview2.11" ".gitconfig" ".gem/" ".fontconfig/" ".eclipse/" ".dnx/" ".continuum/" ".config/" ".condarc" ".conda/" ".cache/" ".boot2docker/" ".bokeh/" ".BitLord/" ".bash_history" ".astropy/" "../" "./")
-
- ("c:/rahuketu/programming/AFModelling/notebook/NIMR_RECO_DASHBOARD/" (22480 11909 0 0) "sample.xlsx" "Reconciliaton_Improved.ipynb" "PITag Excel Sheet.ipynb" "NIMR Reconciliation.ipynb" "debug.log" "DATA/" "Dashboard2.py" "Dashboard.py" ".ipynb_checkpoints/" "../" "./")
-
  ("c:/rahuketu/programming/AFModelling/notebook/" (22476 10964 0 0) "__pycache__/" "ZIP.zip" "ZIP/" "stocks.html" "README" "PySpark2.ipynb" "PySpark.ipynb" "Plotting.ipynb" "NIMR_RECO_DASHBOARD/" "NIMR Reconciliation.ipynb" "network.html" "log_test.py" "linked_panning.html" "linked_brushing.html" "hover.py" "ExtensionMagic.ipynb" "DBMagic.ipynb" "db.html" "data_table.html" "color_scatter.html" "AFManager.py" "AF.ipynb" ".ipynb_checkpoints/" "../" "./")
-
- ("c:/rahuketu/programming/EMACS/Emacs_Config/.emacs.d/" (22483 42501 0 0) "server/" "rotated.log" "init.el" "ido.last~" "ido.last" "elpa/" "custom.el" "configuration.org~" "configuration.org" "configuration.html~" "configuration.html" "configuration.el" "auto-save-list/" "abbrev_defs" "#rotated.log#" "#init.el#" "#ido.last#" "../" "./")
-
- ("c:/rahuketu/programming/EMACS/Emacs_Config/" (22430 46354 0 0) "rotated.log" "README" ".smex-items" ".gitignore~" ".gitignore" ".git/" ".emacs.d/" ".#README" "#README#" "../" "./")
-
- ("c:/rahuketu/programming/F#/" (22447 22382 0 0) "Tutorial1/" "Test.fsx~" "Test.fsx" "Test.exe" "test.elm~" "test.elm" "rotated.log" "ex_text_field.elm~" "ex_text_field.elm" "ex_Form_Field.elm~" "ex_Form_Field.elm" "ex_dice.elm~" "ex_dice.elm" "elm.js" "elm-stuff/" "elm-package.json" "../" "./")
 
  ("c:/Users/Rahul Saraf/.ipython/" (21845 43347 0 0) "README" "profile_ifsharp/" "profile_default/" "nbextensions/" "extensions/" "../" "./")
 
