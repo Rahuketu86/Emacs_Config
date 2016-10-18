@@ -7,10 +7,23 @@
 ;;;'             '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/")
+             t)
+
 (when (< emacs-major-version 24)
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize)
+
+(setq Info-default-directory-list
+      (append
+              Info-default-directory-list
+              '("~/info" )))
+(add-hook 'Info-mode-hook           ; After Info-mode has started
+    (lambda ()
+        (setq Info-additional-directory-list Info-default-directory-list)
+    ))
 
 (defun my-config()
   "Function to open org configuration file"
@@ -41,7 +54,7 @@
 
 (use-package monokai-theme
   :ensure t
-  :init(load-theme 'monokai t))
+  :init (load-theme 'monokai t))
 
 ;; Activate ido
 (require 'ido)
@@ -71,7 +84,7 @@
       :defer t
       :config
        (global-company-mode)
- 
+
 ;;      :config
 ;;       (global-company-mode))
            )
@@ -80,11 +93,17 @@
   :ensure t
   )
 
-(use-package geiser
+;;(use-package geiser
+;;  :ensure t
+;;  :config
+;;  (setq geiser-racket-binary "Racket.exe")
+;;  )
+
+(use-package racket-mode
   :ensure t
-  :config
-  (setq geiser-racket-binary "c:/Program Files (x86)/Racket/Racket.exe")
   )
+
+(add-to-list 'Info-default-directory-list "~/.emacs.d/info")
 
 (use-package thrift
   :ensure t

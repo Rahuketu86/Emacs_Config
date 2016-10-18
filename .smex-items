@@ -1,27 +1,27 @@
 
 ;; ----- smex-history -----
 (
- package-list-packages
  my-config
- run-scheme
- scheme-mode
- customize-group
- customize-themes
- org-mode
+ racket-mode
+ racket-repl
+ run-racket
+ racket-run
+ package-list-packages
+ geiser
 )
 
 ;; ----- smex-data -----
 (
  (ido-mode . 2)
- (my-config . 43)
- (package-list-packages . 8)
+ (my-config . 59)
+ (package-list-packages . 9)
  (recover-this-file . 3)
  (guru-mode . 7)
  (recover-file . 1)
  (org-version . 1)
  (forward-sentence . 1)
  (customize-themes . 3)
- (package-refresh-contents . 1)
+ (package-refresh-contents . 3)
  (fsharp-mode . 1)
  (make-directory . 1)
  (describe-function . 1)
@@ -31,9 +31,19 @@
  (sql-ms . 4)
  (sql-sqlite . 1)
  (sql-oracle . 1)
- (texinfo-mode . 1)
- (org-mode . 1)
+ (texinfo-mode . 3)
+ (org-mode . 2)
  (customize-group . 2)
  (scheme-mode . 1)
  (run-scheme . 1)
+ (run-racket . 17)
+ (info . 4)
+ (Info-up . 1)
+ (dired . 1)
+ (Info-mode-menu . 1)
+ (geiser . 5)
+ (check-parens . 1)
+ (racket-run . 1)
+ (racket-repl . 3)
+ (racket-mode . 1)
 )
