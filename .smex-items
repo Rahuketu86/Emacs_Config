@@ -1,24 +1,24 @@
 
 ;; ----- smex-history -----
 (
- shell
- my-config
- org-publish
- blog-site-dir
- org-publish-all
- run-racket
+ magit-rebase
+ magit-log-all
+ magit-refresh
+ magit-branch
  package-list-packages
+ magit-checkout
+ magit-log
 )
 
 ;; ----- smex-data -----
 (
  (ido-mode . 2)
- (my-config . 122)
- (package-list-packages . 17)
+ (my-config . 123)
+ (package-list-packages . 18)
  (recover-this-file . 3)
  (guru-mode . 7)
  (recover-file . 1)
- (org-version . 5)
+ (org-version . 6)
  (forward-sentence . 1)
  (customize-themes . 3)
  (package-refresh-contents . 8)
@@ -81,4 +81,10 @@
  (insert-random-number . 2)
  (word-definition-lookup . 3)
  (delete-current-file . 1)
+ (magit-log . 1)
+ (magit-branch . 2)
+ (magit-checkout . 1)
+ (magit-refresh . 2)
+ (magit-rebase . 2)
+ (magit-log-all . 1)
 )
