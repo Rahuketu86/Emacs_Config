@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "chess" "chess.el" (22386 46605 0 0))
+;;;### (autoloads nil "chess" "chess.el" (22536 1632 0 0))
 ;;; Generated autoloads from chess.el
 
 (autoload 'chess "chess" "\
@@ -26,7 +26,7 @@ listed in `chess-default-modules'.
 
 ;;;***
 
-;;;### (autoloads nil "chess-ics" "chess-ics.el" (22386 46605 0 0))
+;;;### (autoloads nil "chess-ics" "chess-ics.el" (22536 1628 0 0))
 ;;; Generated autoloads from chess-ics.el
 
 (autoload 'chess-ics "chess-ics" "\
@@ -38,7 +38,7 @@ Connect to an Internet Chess Server.
 
 ;;;***
 
-;;;### (autoloads nil "chess-link" "chess-link.el" (22386 46605 0
+;;;### (autoloads nil "chess-link" "chess-link.el" (22536 1628 0
 ;;;;;;  0))
 ;;; Generated autoloads from chess-link.el
 
@@ -51,7 +51,7 @@ engine, and the computer the second engine.
 
 ;;;***
 
-;;;### (autoloads nil "chess-pgn" "chess-pgn.el" (22386 46605 0 0))
+;;;### (autoloads nil "chess-pgn" "chess-pgn.el" (22536 1630 0 0))
 ;;; Generated autoloads from chess-pgn.el
 
 (autoload 'chess-pgn-read "chess-pgn" "\
@@ -70,7 +70,7 @@ A mode for editing chess PGN files.
 
 ;;;***
 
-;;;### (autoloads nil "chess-puzzle" "chess-puzzle.el" (22386 46605
+;;;### (autoloads nil "chess-puzzle" "chess-puzzle.el" (22536 1628
 ;;;;;;  0 0))
 ;;; Generated autoloads from chess-puzzle.el
 
@@ -83,7 +83,7 @@ making it easy to go on to the next puzzle once you've solved one.
 
 ;;;***
 
-;;;### (autoloads nil "chess-random" "chess-random.el" (22386 46605
+;;;### (autoloads nil "chess-random" "chess-random.el" (22536 1632
 ;;;;;;  0 0))
 ;;; Generated autoloads from chess-random.el
 
@@ -94,8 +94,8 @@ Generate a Fischer Random style position.
 
 ;;;***
 
-;;;### (autoloads nil "chess-tutorial" "chess-tutorial.el" (22386
-;;;;;;  46608 0 0))
+;;;### (autoloads nil "chess-tutorial" "chess-tutorial.el" (22536
+;;;;;;  1632 0 0))
 ;;; Generated autoloads from chess-tutorial.el
 
 (autoload 'chess-tutorial "chess-tutorial" "\
@@ -116,8 +116,8 @@ A simple chess training display.
 ;;;;;;  "chess-perft.el" "chess-phalanx.el" "chess-pkg.el" "chess-plain.el"
 ;;;;;;  "chess-ply.el" "chess-polyglot.el" "chess-pos.el" "chess-scid.el"
 ;;;;;;  "chess-sjeng.el" "chess-sound.el" "chess-stockfish.el" "chess-transport.el"
-;;;;;;  "chess-ucb.el" "chess-uci.el" "chess-var.el") (22386 46618
-;;;;;;  180000 0))
+;;;;;;  "chess-ucb.el" "chess-uci.el" "chess-var.el") (22536 1652
+;;;;;;  0 0))
 
 ;;;***
 
