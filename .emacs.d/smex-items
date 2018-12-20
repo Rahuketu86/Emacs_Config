@@ -1,0 +1,20 @@
+
+;; ----- smex-history -----
+(
+ my-config
+ org-export-dispatch
+ uncomment-region
+ comment-region
+ select-frame
+ cd
+ 5x5
+)
+
+;; ----- smex-data -----
+(
+ (my-config . 10)
+ (select-frame . 1)
+ (comment-region . 1)
+ (uncomment-region . 1)
+ (org-export-dispatch . 1)
+)

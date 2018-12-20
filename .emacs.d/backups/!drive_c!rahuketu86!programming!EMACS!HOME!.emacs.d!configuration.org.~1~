@@ -1,0 +1,199 @@
+#+TITLE: My Emacs Configuration
+#+AUTHOR: Rahuketu86
+#+EMAIL: rahuketu86@gmail.com
+#+OPTIONS: toc:3 num:nil ^:nil
+
+* Emacs init.el
+  #+BEGIN_EXAMPLE
+    (package-initialize)
+
+    (require 'org)
+    (org-babel-load-file
+          (expand-file-name "configuration.org"
+                             user-emacs-directory))
+  #+END_EXAMPLE
+
+* Emacs Customization Group
+  #+BEGIN_SRC emacs-lisp
+    (setq custom-file
+          (expand-file-name "custom.el"
+                            user-emacs-directory))
+  #+END_SRC
+
+* Emacs Repositories
+  #+BEGIN_SRC emacs-lisp
+    (require 'package)
+    ;;;(add-to-list 'package-archives
+    ;;;'             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+    (add-to-list 'package-archives
+                 '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+    (add-to-list 'package-archives
+                 '("melpa" . "http://melpa.org/packages/")
+                 t)
+
+	(add-to-list 'package-archives 
+	             '("org" . "http://orgmode.org/elpa/")
+				 t)
+    (when (< emacs-major-version 24)
+      ;; For important compatibility libraries like cl-lib
+      (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+    (package-initialize)
+
+  #+END_SRC
+
+* Personal Information
+ #+BEGIN_SRC emacs-lisp
+   (setq user-full-name "Rahul Saraf"
+ 	user-mail-address "rahuketu86@gmail.com")
+ #+END_SRC
+* Emacs : Add Info directory
+ #+BEGIN_SRC emacs-lisp
+       (setq Info-default-directory-list
+             (append
+                     Info-default-directory-list
+                     '("~/info" )))
+       (add-hook 'Info-mode-hook           ; After Info-mode has started
+           (lambda ()
+               (setq Info-additional-directory-list Info-default-directory-list)
+           ))
+ #+END_SRC
+* Emacs: Backups
+  #+BEGIN_SRC emacs-lisp
+    (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
+    (setq delete-old-versions -1)
+    (setq version-control t)
+    (setq vc-make-backup-files t)
+  #+END_SRC
+* Emacs: SaveHist
+  #+BEGIN_SRC emacs-lisp
+    (setq savehist-file "~/.emacs.d/savehist")
+    (savehist-mode 1)
+    (setq history-length t)
+    (setq history-delete-duplicates t)
+    (setq savehist-save-minibuffer-history 1)
+    (setq savehist-additional-variables
+  	'(kill-ring
+  	  search-ring
+  	  regexp-search-ring))
+  #+END_SRC
+* Emacs Additional Infopath
+  #+BEGIN_SRC  emacs-lisp
+    (add-to-list 'Info-default-directory-list "~/.emacs.d/info")
+  #+END_SRC
+* Utility Functions
+** Function to open this configuration file
+   #+BEGIN_SRC emacs-lisp
+
+     (defvar config-file-name "configuration.org")
+     (defvar launch-proj "C:/rahuketu/programming/EMACS/LAUNCH" "Command line tool for launching project with custom settings")
+
+     (defun my-config()
+       "Function to open org configuration file"
+       (interactive)
+  
+       (find-file (expand-file-name config-file-name
+                                    user-emacs-directory)))
+
+     (defun my-launcher()
+       (interactive)
+       (dired launch-proj))
+  
+   #+END_SRC
+
+* Splash Screen and bars
+  #+BEGIN_SRC emacs-lisp
+    (setq inhibit-splash-screen t
+          ;;      initial-scratch-message nil
+          ;;    initial-major-mode 'org-mode
+          )
+
+    (scroll-bar-mode -1)
+    (tool-bar-mode -1)
+;;    (menu-bar-mode -1)
+  #+END_SRC
+
+* Configure Emacs for use-package
+  #+BEGIN_SRC emacs-lisp
+         (unless (package-installed-p 'use-package)
+  	 (package-refresh-contents)
+  	 (package-install 'use-package))
+  	;;  (setq use-package-verbose t)
+  	;;  (setq use-package-always-ensure t)
+         (eval-when-compile
+  	 (require 'use-package))
+         (use-package auto-compile
+  	 :config (auto-compile-on-load-mode))
+         (require 'diminish)
+         (require 'bind-key)
+   #+END_SRC
+
+** Note
+   If sometime error is encountered like File error: http://XXXXXX.el,
+   Not Found"  we need to do
+   #+BEGIN_EXAMPLE
+     M-x package-refresh-contents
+   #+END_EXAMPLE
+
+* Improve performance on Windows
+  Improving File Saving Performance on windows.
+  #+BEGIN_SRC emacs-lisp
+    (setq w32-get-true-file-attributes nil)
+  #+END_SRC
+
+* Emacs Custom Theme
+  #+BEGIN_SRC emacs-lisp
+    (use-package monokai-theme
+      :ensure t
+      :init (load-theme 'monokai t))
+  #+END_SRC
+
+* Setup Ido and smex
+  #+BEGIN_SRC emacs-lisp
+    ;; Activate ido
+    (require 'ido)
+    (ido-mode t)
+
+    ;; Set up smex
+    (use-package smex
+      :ensure t
+      :bind (("M-x" . smex))
+      :config (smex-initialize))
+  #+END_SRC
+
+* Setup Guru Mode
+  Guru mode works by disabling common key bindings and pushing for
+  Emacs standard key bindings. Instead of global hook up Textmode and
+  other so that it plays nice with ido-mode.
+  #+BEGIN_SRC emacs-lisp
+    (use-package guru-mode
+      :ensure t
+      :init
+      (setq-default major-mode 'text-mode)
+      :config
+      (add-hook 'prog-mode-hook 'guru-mode)
+      (add-hook 'text-mode-hook 'guru-mode)
+     )
+  #+END_SRC
+p
+* Setup Magit
+  Magit is a git porcelain. With this we can stay within emacs for
+  configuration modifications and commiting to git.
+  #+BEGIN_SRC emacs-lisp
+    (use-package magit
+      :ensure t
+      :bind ("C-x g" . magit-status))
+  #+END_SRC
+  
+* Setup Company Mode
+  Company mode is used for autocompletion in Emacs.
+  #+BEGIN_SRC emacs-lisp
+    (use-package company
+      :ensure t
+      :defer t
+      :config
+       (global-company-mode)
+
+;;      :config
+;;       (global-company-mode))
+	   )
+  #+END_SRC
